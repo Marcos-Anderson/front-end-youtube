@@ -1,0 +1,223 @@
+
+    .img-canal{
+        width: 36px;
+    }
+
+    body{
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .caixa-textos{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .caixa-titulo{
+        color: #0f0f0f;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .caixa-desc{
+        font-size: 14px;
+    }
+
+    .caixa-desc a {
+        color: #606060;
+        font-size: 14px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .img-thumb{
+        width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    }
+
+    .img-canal{
+        border-radius: 50%;
+    }
+
+    .caixa-info{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .caixa-videos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 40px;
+        padding: 0 20px;
+    }
+
+    .caixa-video{
+    width: 100%;
+    }
+
+    .caixa-aovivo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 1px 3px ;
+        background-color: #cc0000e6;
+        color: white;
+        fill: white;
+        width: max-content;
+        border-radius: 3px;
+        font-size: 13px;
+    }
+    .categorias{
+        margin-top: 20px;
+        display: flex;
+        gap: 8px;
+    }
+
+    .categoria{
+        background-color: #0000000d;
+        border-radius: 8px;
+        border: none;
+        font-size: inherit;
+        font-family: inherit;
+        cursor: pointer;
+        padding: 7px 12px;
+    }
+
+    .categoria.selecionado{
+        background-color: #0f0f0f;
+        color: white;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .principal{
+        display: flex;
+        gap: 30px;
+    }
+
+    .menu-lateral{
+        min-width: 240px;
+        padding: 12px;
+    }
+
+    .menu-bloco{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+        padding: 12px;
+    }
+    .bloco-item{
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        padding: 7.5px 15px;
+        gap: 20px;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .bloco-item.selecionado{
+        background-color: #0000000d;
+    }
+
+    .login svg{
+        width: 28px;
+        color: blue;
+    }
+
+    .login{
+        display: flex;
+        align-items: center;
+        width: max-content;
+        margin: 12px 0px 5px 20px;
+        gap: 5px;
+        background-color: transparent; 
+        border: 1px solid #e5e5e5; 
+        
+        /* 5. O segredo do formato: border-radius bem alto para ficar oval */
+        border-radius: 50px; 
+        
+        /* 6. Estilo do texto */
+        color: #065fd4;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .login a{
+        text-decoration: none;
+    }
+
+    .menu-bloco:last-child{
+        border-bottom: none;
+    }
+
+    .cabecalho{
+        margin-top: 7.5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icone-logo{
+        height: 20px;
+    }
+
+        .icone-menu{
+            height: 24px;
+        }
+
+    .caixa-logo,
+     .caixa-pesquisa{
+        
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+        gap: 20px;
+    }
+
+    .icone-microfone{
+        height: 40px;
+        width: 40px;
+        background-color: #00000013;
+        border-radius: 50%;
+        padding: 7.5px;
+    }
+
+    .input-pesquisa {
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  height: 40px;
+  width: 640px;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.icone-pontos{
+    width: 25px;
+}
+
+.caixa-login{
+    display: flex;
+        align-items: center;
+        padding: 0 40px;
+        gap: 10px;
+}
+
+.icone-menu:hover{
+    background-color: #0000000d;
+    border-radius: 50%;
+}
